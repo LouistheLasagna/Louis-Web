@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SurveyForm</title>
+    <link rel="stylesheet" href="Surveyform.css">
+</head>
+<body>
+        <div>
+    <h1>SurveyForm</h1>
+    <h2 id="Heading">Dear user, to sign up, you have to fill out this form</h2>
+
+    <br>
+
+    <label for="Name" id="Name">Name</label>
+    <input id="Name" type="text" name="Name">
+
+    <br>
+
+    <label for="Email" id="Email">Email</label>
+    <input id="Email" type="text" name="Email">
+
+    <br>
+
+    <label for="Password" id="Password"> Password</label>
+    <input id="Password" type="password" name="Password">
+
+    <br>
+
+    <label for="Age" id="Age">Age</label>
+    <input id="Age" type="Number" name="Age" step="1">
+
+    <br>
+
+        </div>
+
+        <div>
+
+    <p class="Gender">Gender</p>
+
+    <label for="male" class="Male">Male</label>
+    <input type="radio" name="gender" id="male">
+    <label for="female" class="Female">Female</label>
+    <input type="radio" name="gender" id="female">
+
+    <br>
+
+        </div>
+
+        <div>
+    <p style="color: sienna; font-size: larger;">How did you get to learn about the website?</p>
+    <p style="color: sienna;">If there is more than one way, please choose multiple</p>
+    <label for="Online" style="color: mediumblue;">Online</label>
+    <input type="checkbox" name="Online" id="Online">
+    <br>
+    <label for="Friend" style="color: slateblue;">Friend</label>
+    <input type="checkbox" name="Friend" id="Friend">
+    <br>
+    <label for="Myself" style="color: tomato;">Myself</label>
+    <input type="checkbox" name="Myself" id="Mself">
+    <br>
+    <label for="Other" style="color: violet;">Other</label>
+    <input type="checkbox" name="Other" id="Other">
+    <p style="color: mediumvioletred;">If it is other, please type how down here</p>
+    <label for="Comments"></label>
+    <textarea name="Comments" id="Comments" cols="15" rows="5"></textarea>
+        </div>
+
+        <div>
+    <h3 style="color: teal;">Do you have any suggestions or comments? If so, please leave them down here so we can improve.</h3>
+    <label for="Comments"></label>
+    <textarea name="Comments" id="Comments" cols="60" rows="15"></textarea>
+        </div>
+    <h4>That is it for the survey, thank you so much for filling this out.</h4>
+</body>
+</html>

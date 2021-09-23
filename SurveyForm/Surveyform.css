@@ -1,0 +1,38 @@
+h1 {
+    color: royalblue;
+}
+#Heading {
+    color: rebeccapurple; font-size: x-large;
+}
+
+#Name {
+    color: blue; font-size: larger;
+}
+
+#Email {
+    color: purple; font-size: larger;
+}
+
+#Password {
+    color: red; font-size: larger;
+}
+
+#Age {
+    color: green; font-size: larger;
+}
+
+.Gender {
+    color: teal; font-size: larger;
+}
+
+.Male {
+    color: blue;
+}
+
+.Female {
+    color: hotpink;
+}
+
+h4 {
+    color: salmon;
+}
