@@ -17,6 +17,10 @@ h1 {
     color: red; font-size: larger;
 }
 
+#Country {
+    color: blue;
+}
+
 #Age {
     color: green; font-size: larger;
 }

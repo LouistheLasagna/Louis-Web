@@ -27,6 +27,18 @@
     <label for="Password" id="Password"> Password</label>
     <input id="Password" type="password" name="Password">
 
+    <label for="country"><p id="Country">Country</p></label>
+    <input type="text" list="countries" id="country">
+    <datalist id="countries">
+        <option value="Canada"></option>
+        <option value="Japan"></option>
+        <option value="South Korea"></option>
+        <option value="U.K"></option>
+        <option value="U.S"></option>
+        <option value="Other"></option>
+    </datalist>
+
+    <br>
     <br>
 
     <label for="Age" id="Age">Age</label>
@@ -59,7 +71,7 @@
     <input type="checkbox" name="Friend" id="Friend">
     <br>
     <label for="Myself" style="color: tomato;">Myself</label>
-    <input type="checkbox" name="Myself" id="Mself">
+    <input type="checkbox" name="Myself" id="Myself">
     <br>
     <label for="Other" style="color: violet;">Other</label>
     <input type="checkbox" name="Other" id="Other">
@@ -72,6 +84,9 @@
     <h3 style="color: teal;">Do you have any suggestions or comments? If so, please leave them down here so we can improve.</h3>
     <label for="Comments"></label>
     <textarea name="Comments" id="Comments" cols="60" rows="15"></textarea>
+    <p style="color: mediumblue;">Please rate this survey by using the range on the bottom</p>
+    <label for="Rate" style="color: mediumblue;">Rating</label>
+    <input type="range" name="Rate" id="Rate">
         </div>
     <h4>That is it for the survey, thank you so much for filling this out.</h4>
 </body>
