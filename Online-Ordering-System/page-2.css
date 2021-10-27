@@ -1,0 +1,47 @@
+#Domino {
+    color: blue;
+}
+
+#Popular {
+    color: red;
+}
+
+#Hawaiian {
+    color: rgb(200, 90, 60);
+    font-size: x-large;
+}
+
+#Pepperoni {
+    color: red;
+    font-size: x-large;
+}
+
+#Cheese {
+    color: orange;
+    font-size: x-large;
+}
+
+#ChiTac{
+    color: purple;
+    font-size: x-large;
+}
+
+#desc1 {
+    color: rgb(200, 90, 60);
+    font-size: large;
+}
+
+#desc2 {
+    color: red;
+    font-size: large;
+}
+
+#desc3 {
+    color: orange;
+    font-size: large;
+}
+
+#desc4 {
+    color: purple;
+    font-size: large;
+}
