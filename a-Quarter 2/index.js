@@ -97,4 +97,139 @@ const sentence=(`My name is ${myname}. My favorite city is ${mycity}.`)
 console.log(sentence)
 
 const unknown1='foo'
-console.log
+console.log(typeof unknown1)
+
+const unknown2=10
+console.log(typeof unknown2)
+
+const unknown3=true
+console.log(typeof unknown3)
+
+if (true) {
+    console.log("This wil print")
+}
+
+if (false) {
+    console.log("true")
+} else {
+    console.log("false")
+}
+
+let hungerlevel=7
+
+if (hungerlevel>7){
+    console.log("Time to eat")
+} else {
+    console.log("We can eat later")
+}
+
+
+let mood="sleepy"
+let tirednesslevel=6
+
+if (mood==="sleepy"&&tirednesslevel>8){
+    console.log("Time to sleep")
+} else {
+    console.log("Not bed time yet")
+}
+
+
+let grjeogrea="" //empty string / falsy
+
+let yijrhijra=null //falsy
+console.log(yijrhijra)
+
+let name
+console.log(name) //const always has to have value
+
+let wordcount=1
+console.log(wordcount-=1)
+
+let username=''
+let defaultname=username||'stranger'
+console.log(defaultname)
+
+let tool=""
+let writingutensil=tool||'pen'
+console.log(`The ${writingutensil} is mightier than the sword`)
+
+let isNightTime=true
+
+if(isNightTime) {
+    console.log('Turn on the lights!')
+} else {
+    console.log('Turn off the lights!')
+}
+
+isNightTime ? console.log('Turn on the lights!'): console.log('Turn off the lights!')
+
+let iscorrect=true
+
+//Refactor
+if(iscorrect){
+    console.log("Correct")
+} else {
+    console.log("Incorrect")
+}
+
+iscorrect ? console.log("Correct"): console.log("Incorrect") //Ternary operator
+
+//Else if
+let stoplight="Yellow"
+
+if (stoplight === "Red"){
+    console.log("Stop")
+} else if (stoplight==="Yellow"){
+    console.log("Slow down")
+} else if (stoplight==="Green"){
+    console.log("Go")
+} else{
+    console.log("Caution, unknown")
+}
+
+let season="Summer"
+
+if (season === "Spring"){
+    console.log("Becoming warm")
+} else if (season==="Summer"){
+    console.log("Its hot")
+} else if (season==="Fall"){
+    console.log("Its getting cool")
+} else {
+    console.log("Its cold")
+}
+
+let groceryitem="Papaya"
+
+switch(groceryitem){
+    case "Tomato":
+        console.log("Tomatoes are $0.49")
+        break
+    case "Lime":
+        console.log("Limes are $1.49")
+        break
+    case "Papaya":
+        console.log("Papayas are $1.29")
+        break
+    default:
+        console.log("Invalid item")
+        break
+}
+
+let GPA="A"
+let score
+switch(GPA){
+    case "A":
+        score=100
+        break
+    case "B":
+        score=90
+        break
+    case "C":
+        score=80
+        break
+    default:
+        score=60
+        break
+}
+console.log(score)
