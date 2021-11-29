@@ -1,13 +1,13 @@
 //Question 1
 function calcadd(number1,number2){
-    console.log(number1+number2)
+    console.log (number1+number2)
+    return calcadd
 }
-
 calcadd(5,5)
 
 //Question 2
 function radius(radius){
-    pi=(3.14)
+    let pi=(3.14)
     area=(pi*radius**2)
     return area
 }
@@ -18,14 +18,14 @@ console.log(result1)
 //Question 3
 function lessthan(number3,number4){
     if (number3+number4<100){
-        console.log("true")
+        console.log(true)
     }
 
     else{
-        console.log("false")
+        console.log(false)
     }
+    return lessthan
 }
-
 lessthan(40,40)
 
 //Question 4
@@ -36,21 +36,21 @@ function leapyear(year){
     else{
         console.log("It is not a leap yaer.")
     }
+    return leapyear
 }
-
 leapyear(2020)
 
 //Question 5
 function ten(number5,number6){
     if(number5+number6===10){
-        console.log("True")
+        console.log(True)
     }
     else if(number5||number6===10){
-        console.log("True")
+        console.log(True)
     }
     else{
-        console.log("False")
+        console.log(False)
     }
+    return ten
 }
-
 ten(10,5)
