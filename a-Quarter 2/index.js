@@ -233,3 +233,4 @@ switch(GPA){
         break
 }
 console.log(score)
+
