@@ -1,0 +1,185 @@
+Question 1
+What does HTML stand for
+Hypertext markup language
+
+Question 2
+<body>
+    <p>This is a review</p>
+</body>
+
+Question 3
+Explain the relationship between h1 and p tags
+<div>
+  <h1>HELLO</h1>
+  <p>Final exam is on friday</p>
+</div>
+Siblings
+
+Question 4
+What is attributes? Give one example
+Extra information in the opeing tag of an element
+id, class, name, src, href
+
+Question 5
+Using html only to style the following text as italic
+<p><em>Hello</em></p>
+Italics is em and bold is strong
+
+Question 6 is easy
+
+Q7
+Write the HTML for the following
+1. A
+2. B
+3. C
+<ol>
+  <li>A</li>
+  <li>B</li>
+  <li>C</li>
+</ol>
+
+Q8
+What is image alts
+Expains
+Doesn't affect image
+Attribute
+
+Q9
+If I want to create a link and opens in a new window which attribute should I use?
+A / target="_blank"
+<a href="https:www.google.com" target="_blank">LINK</a>
+
+Q10
+Please use whitespace and indentation
+<body>
+    <div>Hello</div>
+</body>
+
+Q11
+What is the difference between th and td tags
+th is table headings and td is table data
+<table>
+    <tr>
+        <th>Javascript</th>
+        <th>CSS</th>
+        <th>HTML</th>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>2</td>
+        <td>5</td>
+    </tr>
+</table>
+
+Q12
+password
+Which attributes?
+<label for="password">Password</label>
+<input id="password" type="password" name="password">
+
+Q13
+What is the difference between checkbox and radio button?
+In checkbox, you can select multiple answers but in radio you can only select one. 
+Checkbox also has a check while the radio has a circle that gets filed in.
+
+Q14
+Create a textarea fields and label
+<label for="comments">Comments</label>
+<textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+
+Q15
+Please use CSS to color blue and background white for the following text
+<div>Hello</div>
+div {
+    color: blue
+    background-color: white
+}
+
+Q16
+Is class more specific than id?
+NO
+id => unique to one tag
+class is more than one tag
+
+Q17
+Ues decendant combinator selectors to style list items with any properties
+<ul id="x">
+    <li>A</li>
+    <li>B</li>
+</ul>
+#x li{
+    color: red
+}
+
+Q18
+List text-align
+left, center, right, justify
+
+Q19
+I want to give width to 100px and height to 100px
+Please complete the code below
+p {
+    width: 100px
+    height: 100px
+}
+
+Q20
+What is the padding for the top side?
+div {
+    padding: 10px 20px 30px 40px
+}
+
+10px
+
+TOP RIGHT BOTTOM LEFT (clockwise rotation starting from the top)
+(If there is 3, top, left+right, bottom)
+(If there is 2, top+bottom, left+right)
+
+Q21
+Explain what zindex is
+Zindex allows boxes to overlap.
+It controls how far/back an element should look.
+Doesn't work on static elements.
+
+Q22
+What does RGB stand for
+Red green blue
+Is the following correct
+p {
+    color:rgb(256, 0, 2)
+}
+
+No, because the max is 255
+
+Q23
+Create a function:
+-one integer arrays as parameter
+loop the array and push the element to a new array
+only when the element is positive number
+
+function checkpositive(arr) {
+    let newarr=[]
+    for (let i=0; i<arr.length; i++) {
+        if (arr[i]>0) {
+            newarr.push(arr[i])
+        }
+    }
+    return newarr
+}
+
+Q24
+Create a function:
+-integer arrays as parameter
+-integer value as second parameter
+Count how many value exists in the array
+
+function totalcount (arr, val) {
+    let count=0
+    for (let i=0; i<arr.length; i++) {
+        if (arr[i]===val) {
+            count+1
+        }
+    }
+    return count
+}
+
