@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="title"></h1>
+    <p id="paragraph">Hello</p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <input type="text" id="text" value="" onclick="click3()">
+    <input type="button" value="Click" onclick="click2()"/>
+
+    <script>
+        console.log("Hi welcome to dom!")
+        document.getElementById("title").innerHTML="Heading"
+        let taglength=document.getElementsByTagName("p").length
+        // alert(taglength)
+        let paragraphselected=document.querySelector("#paragraph") 
+        paragraphselected.style.color="blue"
+
+        function click2() {
+            let username=document.getElementById("text")
+            console.log(username.value)
+        }
+        let conclusion=document.createElement("p")
+        conclusion.innerHTML="We are almost done with dom"
+        document.body.appendChild(conclusion)
+    </script>
+
+</body>
+</html>
