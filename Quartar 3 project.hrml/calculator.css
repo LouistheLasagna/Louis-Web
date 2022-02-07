@@ -1,0 +1,16 @@
+h1 {
+    background-color: teal;
+    width: 150px;
+}
+
+#one {
+    color: white;
+    background-color: black;
+    width: 170px;
+}
+
+#two {
+    color: white;
+    background-color: black;
+    width: 200px;
+}

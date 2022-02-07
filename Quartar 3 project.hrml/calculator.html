@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <h1>Calculator</h1>
+
+    <h2 id="one">Enter first value</h2>
+
+    <input type="text" id="number1">
+
+    <p></p>
+
+    <h2 id="two">Enter second value</h2>
+
+    <input type="text" id="number2">
+
+    <p></p>
+
+    <input type="button" id="button" value="Result" onclick="number()">
+    
+    <p></p>
+
+    <input type="text" id="result">
+
+    <script>
+        function number() {
+            let number1=document.getElementById("number1").valueAsNumber
+
+            let number2=document.getElementById("number2").valueAsNumber
+
+            let sum=number1+number2
+
+            result=document.getElementById("result").innerHTML
+            result.innerHTML=sum
+
+            console.log(sum)
+        }
+
+    </script>
+
+</body>
+</html>
