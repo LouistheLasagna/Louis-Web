@@ -1,0 +1,61 @@
+#popular {
+    font-size: x-large;
+    color: orange;
+}
+
+#search{
+    font-size: large;
+}
+
+#John {
+    position: relative;
+    top: -50px;
+}
+
+#Desc-1 {
+    position: relative;
+    left: 250px;
+    top: 40px;
+    color: red;
+    font-size: larger;
+}
+
+
+#Domino {
+    position: relative;
+    top: -50px;
+}
+
+#Desc-2 {
+    position: relative;
+    left: 150px;
+    top: 40px;
+    color: blue;
+    font-size: larger;
+}
+
+#Hut {
+    position: relative;
+    top: -60px;
+}
+
+#Desc-3 {
+    position: relative;
+    left: 170px;
+    top: 20px;
+    color: red;
+    font-size: larger;
+}
+
+#Caesars {
+    position: relative;
+    top: -75px;
+}
+
+#Desc-4 {
+    position: relative;
+    left: 170px;
+    top: 20px;
+    color: orange;
+    font-size: larger;
+}
