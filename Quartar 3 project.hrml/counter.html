@@ -12,17 +12,35 @@
 
     <p></p>
 
-    <input type="text" id="number">
+    <textarea id="number" cols="20" rows="1"></textarea>
 
-    <input type="button" id="up" value="Up">
+    <input type="button" id="up" value="Up" onclick="up()">
 
-    <input type="button" id="down" value="Down">
+    <input type="button" id="down" value="Down" onclick="down()">
 
-    <input type="button" id="reset" value="Reset">
+    <input type="button" id="reset" value="Reset" onclick="reset()">
 
     <script>
-        function up () {
-            
+        number=0
+        function up() {
+            let addition=number+=1
+            document.getElementById("number").innerHTML=addition
+            if (number>0) {
+                document.getElementById("number").style.color="blue"
+            }
+        }
+
+        function down() {
+            let subtraction=number-=1
+            document.getElementById("number").innerHTML=subtraction
+            if (number<0) {
+                document.getElementById("number").style.color="red"
+            }
+        }
+
+        function reset() {
+            let reset=number=0
+            document.getElementById("number").innerHTML=reset
         }
     </script>
 
