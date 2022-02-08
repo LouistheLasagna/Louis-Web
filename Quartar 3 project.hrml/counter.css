@@ -1,0 +1,39 @@
+#heading {
+    background-color: beige;
+    height: 350px;
+    width: 350px;
+    text-align: center;
+}
+
+#number {
+    position: relative;
+    top: -300px;
+    right: -90px;
+}
+
+#up {
+    color: white;
+    background-color: blue;
+    position: relative;
+    top: -240px;
+    left: -55px;
+    width: 50px;
+}
+
+#down {
+    color: white;
+    background-color: red;
+    position: relative;
+    top: -240px;
+    left: -50px;
+    width: 50px;
+}
+
+#reset {
+    color: white;
+    background-color: purple;
+    position: relative;
+    top: -185px;
+    left: -135px;
+    width: 50px;
+}

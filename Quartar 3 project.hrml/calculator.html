@@ -12,13 +12,13 @@
 
     <h2 id="one">Enter first value</h2>
 
-    <input type="text" id="number1">
+    <input type="number" id="number1">
 
     <p></p>
 
     <h2 id="two">Enter second value</h2>
 
-    <input type="text" id="number2">
+    <input type="number" id="number2">
 
     <p></p>
 
@@ -26,7 +26,7 @@
     
     <p></p>
 
-    <input type="text" id="result">
+    <textarea id="result" cols="20" rows="1"></textarea>
 
     <script>
         function number() {
@@ -36,8 +36,7 @@
 
             let sum=number1+number2
 
-            result=document.getElementById("result").innerHTML
-            result.innerHTML=sum
+            document.getElementById("result").innerHTML=sum
 
             console.log(sum)
         }
