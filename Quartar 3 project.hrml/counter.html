@@ -28,6 +28,9 @@
             if (number>0) {
                 document.getElementById("number").style.color="blue"
             }
+            if (number===0) {
+                document.getElementById("number").style.color="black"
+            }
         }
 
         function down() {
@@ -35,6 +38,9 @@
             document.getElementById("number").innerHTML=subtraction
             if (number<0) {
                 document.getElementById("number").style.color="red"
+            }
+            if (number===0) {
+                document.getElementById("number").style.color="black"
             }
         }
 
